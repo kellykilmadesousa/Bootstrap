@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Bootstrap css - Link para pegar o estilo CSS dos setvidores qdo Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    .tm-social {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+  <title>Agência de viagens</title>
+</head>
+
+<body style="background-image: linear-gradient(to right, #e0aa07b3, #f2ab0685, #e6ee08b1)">
+
+<!-- /Navbar com imagem -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <a class="navbar-brand text-warning " href="landpage.html">
+      <img src="assets/img/KKS TURISMO3.png" width="200" height="32.69" class="d-inline-block align-top" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </a>
+<!-- /Navbar com imagem -->
+<!-- Navbar -->
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="landpage.html">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sobre
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Quem somos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="contatosite.html">Contato</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Passeios Locais
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Bairro do Recife</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Centro Histórico de Olinda</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Porto de Galinhas</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Nacionais
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Internacionais
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+<!--Navbar-->
+
+<!--Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100"
+          src="https://maladeaventuras.com/wp-content/uploads/2020/07/centro-historico-de-recife-1280x720.jpg"
+          alt="Primeiro Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold">Bairro do Recife - PE</h5>
+          <br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/frança-paris-1280x720.jpg" alt="Segundo Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold">Paris - França</h5>
+          <br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="https://www.spain.info/export/sites/segtur/.content/images/galerias/mezquita-cordoba/mezquita-catedral-puente-cordoba-s241626148.jpg"
+          alt="Terceiro Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold">Córdoba - Espanha</h5>
+          <br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="https://assistentedeviagem.com.br/blog/wp-content/uploads/2019/07/Porto-de-Galinhas-01-1280x720.jpg"
+          alt="Quarto Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold">Porto de Galinhas, Ipojuca - PE</h5>
+          <br>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+<!--/Carousel-->
+
+<!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid bg-light">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold text-danger">JÁ PENSOU EM REALIZAR A VIAGEM DOS SEUS SONHOS?</h1>
+    </div>
+  </div>
+<!--/Jumbotron-->
+
+<!--Cards-->
+  <div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top"
+          src="https://maladeaventuras.com/wp-content/uploads/2020/07/igreja-da-se-olinda-1280x720.jpg"
+          alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Passeios Locais</h5>
+          <p class="card-text">Centro Histórico de Olinda - PE</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/img/13_lg.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Viagens Nacionais</h5>
+          <p class="card-text">Rio de Janeiro - RJ</p>
+        </div>
+        <br>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/img/seulcoreiadosul.jpg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Viagens Internacionais</h5>
+          <p class="card-text">Coreia do Sul</p>
+        </div>
+        <br>
+      </div>
+
+    </div>
+<!--/Cards-->
+
+<!--texto e video-->
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Você sabia?</h3>
+        <br>
+       </p>
+          Lazer compõe o Turismo pois proporciona ao homem fazer uso de sua liberdade, de sua criatividade, possibilita trocas culturais e descanso.
+        <p>
+        <p>
+          Além disso, o direito ao lazer encontra-se na Constituição Federal, e está inserido no capítulo dos Direitos Sociais e este, por sua vez, encontra-se no título dos Direitos Fundamentais.
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1VURUb-vArA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+<!--/texto e video-->
+ 
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid bg-dark">
+  <div class="container">
+    <h6 class="display-4 font-weight-normal text-warning text-center">Temos um pacote de viagem <br>ideal para você!</h6>
+    </class>
+  </div>
+</div>
+<!--/Jumbotron-->
+
+<!--Formulário de contato-->
+  <div class="container">
+  <div class="row mb-5">
+    <div class="col-md-12">
+      <h4 class="text-left">
+        Entre em contato conosco
+      </h4>
+    </div>
+  </div>
+  
+  <form class="needs-validation" novalidate>
+  <div class="row d-flex align-items-center">
+    <div class="col-md-6">
+      <form>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Nome:</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput2">Sobrenome:</label>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Sobrenome" >
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlInput3">Endereço de email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="nome@exemplo.com">
+        </div>
+       
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mensagem:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="form-group d-flex justify-content-end">
+          <button class="btn btn-outline-danger">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </form>
+  <script>
+    // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+        var forms = document.getElementsByClassName('needs-validation');
+        // Faz um loop neles e evita o envio
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+
+    <div class="col-md-6">
+      <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.375158186646!2d-34.87531063523498!3d-8.063161666928158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48ed72541%3A0xf5636ba795e00cd4!2sPra%C3%A7a%20Bar%C3%A3o%20do%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050020-360!5e0!3m2!1spt-PT!2sbr!4v1661541424527!5m2!1spt-PT!2sbr" width="450" height="300" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  </div>
+<!--/Formulário de contato-->
+
+<!--footer-->
+  <hr>
+  <footer>
+    <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-center">
+        
+          <a href="https://github.com/kellykilmadesousa" target="_blank" class="p-3"> 
+            <img class="tm-social" src="assets/img/github.png" alt="Logo do Github">
+          </a>
+ 
+          <a href="https://www.linkedin.com/in/kellykilma/" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+          </a>
+
+          <a href="https://www.instagram.com/amlikel/" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img/instagram.png" alt="Logo do instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12">
+        <p class="text-center">
+          Fone: (81) 0000-0000
+        </p>
+        <p class="text-center">
+            E-mail: kksturismo@email.com
+        </p>
+        <p class="text-center">
+          Todos os direitos reservados: Kelly Kilma &copy;
+        </p>
+      </div>
+    </div>
+
+<!--/footer-->
+
+
+
+
+<!--Scripts necessário para utilização dos códigos JS do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
